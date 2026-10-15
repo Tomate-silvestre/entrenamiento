@@ -10,7 +10,7 @@
     AFRAME.registerComponent("carton", {
       schema: {
         color: {default: "#d9aa71"},
-        ondas: {default: 16}
+        ondas: {default: 4}
       },
       init: function () {
         const canvas = document.createElement("canvas");
